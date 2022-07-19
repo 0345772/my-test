@@ -1,5 +1,6 @@
 body {
   margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +8,62 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  height: 100%;
+  padding: 2%;
+  background: rgb(216, 216, 240);
+}
+
+.folder {
+  margin: 15px 0;
+}
+
+.item {
+  padding: 5px;
+}
+
+.files-title{
+  color:rgb(10, 10, 170);
+}
+
+.data {
+  margin: 10px;
+  padding-right: 30px;
+}
+
+.folder-title {
+  margin-top: 2%;
+  padding-left: 3%;
+  font-style: italic;
+  text-transform: lowercase;
+  color: rgb(52, 34, 171);
+}
+
+.name {
+  color: rgb(115, 30, 30);
+}
+
+.type {
+  margin-left: 5px;
+  color: green;
+}
+
+.size {
+  margin-left: 5px;
+  color: blue;
+}
+
+.atime {
+  margin-left: 5px;
+  color: brown;
+}
+
+.mtime {
+  margin-left: 5px;
+  color: rgb(40, 78, 78);
+}
+
+.dev {
+  margin-left: 5px;
+  color: violet;
 }
